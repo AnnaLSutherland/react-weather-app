@@ -7,6 +7,16 @@ export default function App() {
       <header className="App-header">
         <h1>Weather App</h1>
         <Weather />
+
+        <p classname="githubLink">
+          <a
+            href="https://github.com/AnnaLSutherland/react-weather-app"
+            target="_blank"
+          >
+            OpenSource code
+          </a>
+          by Anna Sutherland
+        </p>
       </header>
     </div>
   );
