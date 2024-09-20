@@ -1,0 +1,20 @@
+.search {
+  padding: 8px;
+  border: none;
+  border-radius: 24px 0 0 24px;
+  background-color: #f1f4eb;
+  font-size: 16px;
+}
+.submit {
+  padding: 8px;
+  border: none;
+  border-radius: 0 24px 24px 0;
+  background-color: #596a5e;
+  color: #f1f4eb;
+  font-size: 16px;
+  transition: all 20ms ease-in;
+}
+.submit:hover {
+  background-color: #f1f4eb;
+  color: #596a5e;
+}
