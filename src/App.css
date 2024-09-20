@@ -13,11 +13,14 @@
   color: white;
 }
 
-.githubLink {
-  margin-top: 20px;
-  font-size: 18px;
-}
-
 ul {
   list-style: none;
+}
+
+.githubLink {
+  color: white;
+  margin-right: 5px;
+}
+.githubLink:hover {
+  text-decoration: none;
 }
