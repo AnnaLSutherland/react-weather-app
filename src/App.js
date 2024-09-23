@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <footer>
+        <footer className="githubLink">
           This project was coded by Anna Sutherland and is{" "}
           <a
             href="https://github.com/AnnaLSutherland/react-weather-app"
