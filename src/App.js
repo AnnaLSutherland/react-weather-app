@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather city="Aberdeen" />
         <footer className="githubLink">
           This project was coded by Anna Sutherland and is{" "}
           <a
@@ -14,7 +14,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced in GitHub
+            open-sourced on GitHub
           </a>
         </footer>
       </div>

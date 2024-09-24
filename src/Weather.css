@@ -13,6 +13,10 @@
   font-weight: bold;
   margin: 20px 0 3px 0;
 }
+.Weather h2 {
+  font-size: 16px;
+  font-weight: light;
+}
 
 .Weather ul {
   list-style: none;
@@ -32,9 +36,8 @@
   font-size: 64px;
 }
 .weather-temperature img {
-  width: 90px;
-  height: 90px;
-  margin-right: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-temperature .unit {
