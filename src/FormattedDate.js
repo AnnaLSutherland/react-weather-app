@@ -19,12 +19,24 @@ export default function FormattedDate(props) {
   }
 
   if (hours > 12) {
-    return `${day}, ${hours - 12}:${minutes}pm`;
+    return (
+      <div>
+        {day}, {hours - 12}:{minutes}pm
+      </div>
+    );
   } else {
     if (hours >= 1 && hours < 12) {
-      return `${day}, ${hours - 12}:${minutes}am`;
+      return (
+        <div>
+          {day}, ${hours - 12}:{minutes}am
+        </div>
+      );
     } else {
-      return `12:${minutes}am`;
+      return (
+        <div>
+          {day}, 12:{minutes}am
+        </div>
+      );
     }
   }
 }
