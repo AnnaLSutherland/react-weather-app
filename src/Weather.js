@@ -10,13 +10,14 @@ export default function Weather(props) {
   });
 
   function handleResponse(response) {
+    console.log(response.data);
     setWeatherData({
       ready: true,
       city: response.data.city,
       country: response.data.country,
       date: new Date(response.data.time * 1000),
       description: response.data.condition.description,
-      icon: response.data.condition.icon_url,
+      icon: response.data.condition.icon,
       temperature: response.data.temperature.current,
       feelsLike: response.data.temperature.feels_like,
       wind: response.data.wind.speed,

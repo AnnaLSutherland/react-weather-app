@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.1 99.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fbb042;
+      }
+
+      .cls-3 {
+        fill: #7db1d2;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="64.87" cy="43.03" r="15.31"/>
+  <path class="cls-3" d="m74.37,71.14c-.59.08-1.21.11-1.78.11H28.33c-7.67,1.01-14.71-4.42-15.69-12.11-1.01-7.67,4.42-14.71,12.11-15.69.65-.08,1.29-.11,1.92-.11.74-6.21,5.62-11.35,12.11-12.2,5.81-.74,11.23,2.18,13.97,6.96.63-.19,1.27-.3,1.94-.4,5.52-.7,10.68,1.88,13.53,6.22.84-.28,1.69-.47,2.58-.59,7.67-.99,14.71,4.42,15.69,12.11,1.01,7.67-4.42,14.71-12.11,15.69Z"/>
+  <g>
+    <rect class="cls-1" width="99.1" height="99.1"/>
+    <rect class="cls-1" x="0" width="99.1" height="12.48"/>
+    <rect class="cls-1" x="0" y="86.62" width="98.87" height="12.48"/>
+    <rect class="cls-1" x="43.31" y="43.31" width="99.1" height="12.48" transform="translate(142.41 -43.31) rotate(90)"/>
+    <rect class="cls-1" x="-43.31" y="43.31" width="99.1" height="12.48" transform="translate(55.79 43.31) rotate(90)"/>
+  </g>
+</svg>
