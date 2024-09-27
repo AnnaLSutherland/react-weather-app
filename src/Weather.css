@@ -2,10 +2,32 @@
   background-color: white;
   font-family: "Manrope", sans-serif;
   color: #56859d;
-
   border-radius: 4px;
-
   padding: 20px;
+}
+
+.col-9 {
+  padding: 0 0 0 12px;
+}
+.col-3 {
+  padding: 0 12px 0 0;
+}
+.form-search {
+  background-color: #c7e6fa;
+  border: none;
+  border-radius: 50px 0 0 50px;
+}
+.form-button {
+  color: white;
+  border: none;
+  background-color: #7bb1d2;
+  padding: 6px 12px;
+  border-radius: 0 50px 50px 0;
+  transition: all 200ms ease-in;
+}
+.form-button:hover {
+  color: white;
+  background-color: #56859d;
 }
 
 .Weather h1 {

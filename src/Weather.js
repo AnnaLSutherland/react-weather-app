@@ -20,6 +20,7 @@ export default function Weather(props) {
       icon: response.data.condition.icon,
       temperature: response.data.temperature.current,
       feelsLike: response.data.temperature.feels_like,
+      humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
     });
   }
@@ -49,7 +50,7 @@ export default function Weather(props) {
               <input
                 type="search"
                 placeholder="Enter a city..."
-                className="form-control"
+                className="form-control form-search"
                 autoFocus="on"
                 onChange={handleCitySearch}
               />
@@ -58,7 +59,7 @@ export default function Weather(props) {
               <input
                 type="Submit"
                 value="Search"
-                className="btn btn-primary w-100"
+                className="w-100 form-button"
               />
             </div>
           </div>{" "}

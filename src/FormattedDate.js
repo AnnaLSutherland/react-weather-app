@@ -21,20 +21,20 @@ export default function FormattedDate(props) {
   if (hours > 12) {
     return (
       <div>
-        {day}, {hours - 12}:{minutes}pm
+        Last Updated: {day}, {hours - 12}:{minutes}pm
       </div>
     );
   } else {
     if (hours >= 1 && hours < 12) {
       return (
         <div>
-          {day}, ${hours - 12}:{minutes}am
+          Last Updated: {day}, ${hours - 12}:{minutes}am
         </div>
       );
     } else {
       return (
         <div>
-          {day}, 12:{minutes}am
+          Last Updated: {day}, 12:{minutes}am
         </div>
       );
     }
