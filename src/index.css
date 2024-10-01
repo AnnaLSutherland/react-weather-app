@@ -1,3 +1,10 @@
 body {
-  background-color: #7cb1d2;
+  height: 100vh;
+  margin: 0;
+
+  background: radial-gradient(
+    circle at 52.1% -29.6%,
+    #001265 0%,
+    #80347d 100.2%
+  );
 }

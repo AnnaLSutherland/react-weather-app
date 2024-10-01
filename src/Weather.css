@@ -1,11 +1,10 @@
 .Weather {
   background-color: white;
   font-family: "Manrope", sans-serif;
-  color: #56859d;
+  color: #80347d;
   border-radius: 4px;
   padding: 20px;
 }
-
 .col-9 {
   padding: 0 0 0 12px;
 }
@@ -13,21 +12,26 @@
   padding: 0 12px 0 0;
 }
 .form-search {
-  background-color: #c7e6fa;
+  color: white;
+  background-color: #ad6daa;
   border: none;
   border-radius: 50px 0 0 50px;
+}
+.form-search:hover {
+  color: #80347d;
+  background-color: white;
 }
 .form-button {
   color: white;
   border: none;
-  background-color: #7bb1d2;
+  background-color: #80347d;
   padding: 6px 12px;
   border-radius: 0 50px 50px 0;
   transition: all 200ms ease-in;
 }
 .form-button:hover {
   color: white;
-  background-color: #56859d;
+  background-color: #ad6daa;
 }
 
 .Weather h1 {
@@ -54,7 +58,7 @@
 }
 .Weather .temperature {
   font-weight: 400;
-  color: #56859d;
+  color: #80347d;
   font-size: 64px;
 }
 .weather-temperature img {

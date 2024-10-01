@@ -5,3 +5,10 @@
   font-size: 16px;
   font-weight: 300;
 }
+.unit a {
+  text-decoration: underline;
+  color: #80347d;
+}
+.unit a:hover {
+  color: #001265;
+}

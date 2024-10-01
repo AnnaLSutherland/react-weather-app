@@ -34,7 +34,7 @@ export default function WeatherForecastDay(props) {
     <div>
       {" "}
       <div className="WeatherForecast-day">
-        <h5>{day()}</h5>
+        <h5 className="ForecastDay">{day()}</h5>
       </div>
       <img
         src={`/src/icons/${props.data.condition.icon}.svg`}
