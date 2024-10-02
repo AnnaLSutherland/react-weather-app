@@ -1,9 +1,13 @@
 .App {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 .App footer {
+  text-align: center;
   font-size: 14px;
   color: white;
   margin: 15px 0;
+}
+.github-link {
+  color: #f29f44;
 }
