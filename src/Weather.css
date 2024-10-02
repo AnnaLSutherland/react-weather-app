@@ -21,6 +21,9 @@
   color: #80347d;
   background-color: white;
 }
+.form-search::placeholder {
+  color: white;
+}
 .form-button {
   color: white;
   border: none;
