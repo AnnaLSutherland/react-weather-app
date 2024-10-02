@@ -28,7 +28,7 @@ export default function FormattedDate(props) {
     if (hours >= 1 && hours < 12) {
       return (
         <div>
-          Last Updated: {day}, ${hours - 12}:{minutes}am
+          Last Updated: {day}, {hours}:{minutes}am
         </div>
       );
     } else {
