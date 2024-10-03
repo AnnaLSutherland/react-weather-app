@@ -36,7 +36,7 @@ export default function WeatherForecast(props) {
     );
   } else {
     let apiKey = "d36aa0424f0b7a4te0a504eba4fo6786";
-    let city = "Aberdeen";
+
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${props.city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
 
