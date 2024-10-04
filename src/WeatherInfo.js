@@ -50,8 +50,8 @@ export default function WeatherInfo(props) {
               Wind:{" "}
               <span className="data-results">
                 {Math.round(props.data.wind)}
-              </span>
-              mph
+              </span>{" "}
+              km/h
             </li>
           </ul>
         </div>
